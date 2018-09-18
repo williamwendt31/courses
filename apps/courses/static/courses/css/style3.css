@@ -1,0 +1,19 @@
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+.error {
+    color: red;
+}
+.form-control {
+    width: 50%;
+}
+h4 {
+    margin-top: 20px;
+}
+form {
+    margin: 20px 0px;
+}
+table {
+    margin-top: 30px;
+}
