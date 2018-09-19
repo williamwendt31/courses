@@ -49,4 +49,4 @@ def add_comment(request):
                 messages.error(request, value)
         else:
             Comment.objects.create(comment=request.POST['comment'], course=Course.objects.get(id=request.POST['id']))
-    return redirect(f"/comments/{request.POST['id']}")
+    return redirect("/comments/" + str(request.POST['id']))
